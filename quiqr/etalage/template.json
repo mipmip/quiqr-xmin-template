@@ -1,0 +1,9 @@
+{
+  "name": "Quiqr Xmin",
+  "description": "Minimal but clean and complete hugo theme remixed as Quiqr Template",
+  "homepage": "https://github.com/mipmip/quiqr-xmin-template",
+  "license": "MIT",
+  "licenseURL": "https://github.com/mipmip/quiqr-xmin-template/blob/main/LICENSE",
+  "author": "Yihui Xie, Pim Snel",
+  "authorHomepage": "https://yihui.org/"
+}

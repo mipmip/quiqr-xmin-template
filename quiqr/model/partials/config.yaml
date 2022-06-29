@@ -1,0 +1,51 @@
+---
+title: Site Config
+description: Hugo & Site Configuration values
+file: config.yaml
+fields:
+  - key: title
+    title: Site Title
+    type: string
+    tip: Your page title. [Read more on hugo hq](https://gohugo.io)
+  - key: baseURL
+    title: Base URL
+    type: string
+
+  - key: languageCode
+    title: Language Code
+    type: string
+
+  - key: menu
+    type: pull
+    group: menu
+    title: Menu
+    fields:
+      - key: main
+        groupdata: true
+        title: Menu
+        type: accordion
+        fields:
+          - key: name
+            arrayTitle: true
+            title: Name
+            type: string
+          - key: url
+            title: url
+            type: string
+          - key: weight
+            title: weight
+            type: number
+
+  - key: params
+    type: nest
+    groupdata: true
+    title: Params
+    fields:
+      - key: description
+        title: Description
+        type: string
+        multiLine: true
+      - key: footer
+        title: Footer
+        type: string
+        multiLine: true

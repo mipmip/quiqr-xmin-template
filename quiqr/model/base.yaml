@@ -5,21 +5,4 @@ serve:
 build:
   - key: default
     config: config.yaml
-menu:
-  - key: settings
-    title: Settings
-    menuItems:
-      - key: mainConfig
-singles:
-  - key: mainConfig
-    title: Site Configuration
-    file: config.yaml
-    fields:
-      - key: title
-        title: Site Title
-        type: string
-        tip: Your page title.
-      - key: baseURL
-        title: Base URL
-        type: string
-        tip: Your site URL.
+
