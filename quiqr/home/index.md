@@ -1,14 +1,11 @@
-# README FOR NEW SITE
+# XMin for Quiqr
 
-If you're a website developer you can read the [Quiqr Site Developer
-Docs](https://book.quiqr.org/)
-how to customize your Site Admin.
+The XMin template is based on the Xmin theme. An extremely Minimal Hugo theme.
 
-Quiqr is a Desktop App made for [Hugo](https://gohugo.io). Read all about
-[creating Hugo websites](https://gohugo.io/getting-started/quick-start/).
+Read more about the XMin theme on the [original project page](https://github.com/yihui/hugo-xmin).
 
-To change this about text, edit this file: */home/pim/Quiqr Data/temp/siteFromTheme/quiqr/home/index.md*.
+In **Site Config** you can change the behaviour of the website. 
 
-Happy Creating.
+To change this text and do more advanged stuff you need be in the **Site Developer** role. Read [all about roles](https://book.quiqr.org/docs/15-site-and-cms-development/01-user-roles/) in Quiqr.
 
 ❤️ Quiqr

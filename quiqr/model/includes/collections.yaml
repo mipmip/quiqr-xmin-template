@@ -19,6 +19,47 @@
       type: markdown
 
 - dataformat: yaml
+  description: Notes
+  folder: content/note
+  itemtitle: Note
+  key: notes
+  title: Notes
+  hideIndex: true
+  extension: md
+  fields:
+    - key: title
+      title: Title
+      type: string
+    - key: date
+      title: Date
+      type: date
+    - key: categories
+      title: Categories
+      type: chips
+    - key: tags
+      title: Tags
+      type: chips
+    - key: author
+      title: Author
+      type: string
+    - key: mainContent
+      title: Main content
+      type: markdown
+
+    - key: images
+      type: bundle-manager
+      path: ./images
+      extensions:
+        - svg
+        - png
+        - jpg
+        - gif
+      fields:
+        - key: thumb
+          title: Thumb
+          type: bundle-image-thumbnail
+        
+- dataformat: yaml
   description: Blog Posts
   folder: content/post
   itemtitle: Post

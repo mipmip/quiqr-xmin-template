@@ -3,6 +3,7 @@
   menuItems:
     - key: pages
     - key: posts
+    - key: notes
 
 - key: images
   title: Images
